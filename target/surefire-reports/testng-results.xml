@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-18T16:01:38 IST" name="Suite" finished-at="2020-07-18T16:02:12 IST" duration-ms="34419">
+    <groups>
+    </groups>
+    <test started-at="2020-07-18T16:01:38 IST" name="validate title" finished-at="2020-07-18T16:02:10 IST" duration-ms="31567">
+      <class name="E2Eprojects.ValidateHomepage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:E2Eprojects.ValidateHomepage@3f390d63]" started-at="2020-07-18T16:01:38 IST" name="intialize" finished-at="2020-07-18T16:01:59 IST" duration-ms="21071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="validatetitle()[pri:0, instance:E2Eprojects.ValidateHomepage@3f390d63]" started-at="2020-07-18T16:01:59 IST" name="validatetitle" finished-at="2020-07-18T16:02:00 IST" duration-ms="777" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at E2Eprojects.ValidateHomepage.validatetitle(ValidateHomepage.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2Eprojects.ValidateHomepage@3f390d63]" started-at="2020-07-18T16:02:01 IST" name="teardown" finished-at="2020-07-18T16:02:10 IST" duration-ms="8329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2Eprojects.ValidateHomepage -->
+    </test> <!-- validate title -->
+    <test started-at="2020-07-18T16:01:38 IST" name="validate users login" finished-at="2020-07-18T16:02:12 IST" duration-ms="34419">
+      <class name="E2Eprojects.Homepage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:E2Eprojects.Homepage@5ee2b6f9]" started-at="2020-07-18T16:01:38 IST" name="intialize" finished-at="2020-07-18T16:01:47 IST" duration-ms="9354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="userlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2Eprojects.Homepage@5ee2b6f9]" started-at="2020-07-18T16:01:47 IST" name="userlogin" data-provider="getdata" finished-at="2020-07-18T16:02:04 IST" duration-ms="16867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sapnauser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method signature="userlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2Eprojects.Homepage@5ee2b6f9]" started-at="2020-07-18T16:02:04 IST" name="userlogin" data-provider="getdata" finished-at="2020-07-18T16:02:09 IST" duration-ms="4973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sapnauser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2Eprojects.Homepage@5ee2b6f9]" started-at="2020-07-18T16:02:09 IST" name="teardown" finished-at="2020-07-18T16:02:12 IST" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2Eprojects.Homepage -->
+    </test> <!-- validate users login -->
+  </suite> <!-- Suite -->
+</testng-results>

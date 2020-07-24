@@ -1,0 +1,7 @@
+13:33:54.145 [TestNG-tests-3] INFO  resources.Base - driver is instailised
+13:33:57.335 [TestNG-tests-1] INFO  resources.Base - driver is instailised
+13:34:16.695 [TestNG-tests-1] INFO  resources.Base - navigated to home page
+13:34:17.624 [TestNG-tests-3] INFO  resources.Base - navigated to home page
+13:34:19.972 [TestNG-tests-2] INFO  resources.Base - navigation is displayed
+13:34:26.629 [TestNG-tests-1] INFO  resources.Base - restricted user
+13:34:33.022 [TestNG-tests-1] INFO  resources.Base - navigated to home page

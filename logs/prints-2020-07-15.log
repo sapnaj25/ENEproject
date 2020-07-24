@@ -1,0 +1,7 @@
+22:10:39.505 [TestNG-tests-1] INFO  resources.Base - Non restricted
+22:30:03.927 [TestNG-tests-1] INFO  resources.Base - driver is instailised
+22:30:04.332 [TestNG-tests-3] INFO  resources.Base - driver is instailised
+22:30:14.316 [TestNG-tests-1] INFO  resources.Base - navigated to home page
+22:30:14.490 [TestNG-tests-3] INFO  resources.Base - navigated to home page
+22:30:16.912 [TestNG-tests-2] INFO  resources.Base - navigation is displayed
+22:30:19.584 [TestNG-tests-1] INFO  resources.Base - restricted user

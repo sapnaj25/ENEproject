@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-16T14:36:45 IST" name="Default suite" finished-at="2020-07-16T14:37:04 IST" duration-ms="19362">
+    <groups>
+    </groups>
+    <test started-at="2020-07-16T14:36:45 IST" name="Default test" finished-at="2020-07-16T14:37:04 IST" duration-ms="19362">
+      <class name="E2Eprojects.Homepage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:E2Eprojects.Homepage@149dd36b]" started-at="2020-07-16T14:36:45 IST" name="intialize" finished-at="2020-07-16T14:36:51 IST" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method signature="userlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2Eprojects.Homepage@149dd36b]" started-at="2020-07-16T14:36:51 IST" name="userlogin" data-provider="getdata" finished-at="2020-07-16T14:36:58 IST" duration-ms="7232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sapnauser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method signature="userlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2Eprojects.Homepage@149dd36b]" started-at="2020-07-16T14:36:58 IST" name="userlogin" data-provider="getdata" finished-at="2020-07-16T14:37:03 IST" duration-ms="4859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sapnauser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:E2Eprojects.Homepage@149dd36b]" started-at="2020-07-16T14:37:03 IST" name="teardown" finished-at="2020-07-16T14:37:04 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2Eprojects.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

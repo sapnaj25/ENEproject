@@ -1,0 +1,7 @@
+17:56:51.889 [TestNG-tests-1] INFO  resources.Base - driver is instailised
+17:57:07.537 [TestNG-tests-3] INFO  resources.Base - navigated to home page
+17:57:08.293 [TestNG-tests-1] INFO  resources.Base - navigated to home page
+17:57:10.501 [TestNG-tests-3] INFO  resources.Base - Text message on landing page is matched
+17:57:12.778 [TestNG-tests-2] INFO  resources.Base - navigation is displayed
+17:57:17.507 [TestNG-tests-1] INFO  resources.Base - restricted user
+17:57:19.698 [TestNG-tests-1] INFO  resources.Base - navigated to home page

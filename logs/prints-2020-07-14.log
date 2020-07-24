@@ -1,0 +1,7 @@
+18:20:54.545 [TestNG-tests-1] INFO  resources.Base - restricted user
+18:20:57.625 [TestNG-tests-1] INFO  resources.Base - navigated to home page
+18:20:59.302 [TestNG-tests-1] INFO  resources.Base - Non restricted
+18:21:48.462 [TestNG-tests-1] INFO  resources.Base - driver is instailised
+18:21:48.494 [TestNG-tests-3] INFO  resources.Base - driver is instailised
+18:21:59.545 [TestNG-tests-3] INFO  resources.Base - navigated to home page
+18:21:59.810 [TestNG-tests-1] INFO  resources.Base - navigated to home page
